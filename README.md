@@ -19,7 +19,7 @@ In the explore option in TagoIO sidebar, you will see the Keypad Dashboard examp
 Just type in the name of the device you want to use in your keypad application. After that, all the widgets will already be using the correct device and ready to receive your data!
 
 ## Analysis creation
-To setup this application you need to create just one analysis: Password Validation. In your account, add an analysis with your name preference and configure the environment variables with your device's token. Copy the code from the passwordValidation.js script here in Github and paste it in your analysis, save it. Now, just link this analysis with the keypad widget in User Control tab, like the following image:
+To setup this application you need to create just one analysis: Password Validation. In your account, add an analysis with your name preference and configure the environment variables with your device's token for the environment variable named **device_token**. Copy the code from the passwordValidation.js script here in Github and paste it in your analysis, save it. Now, just link this analysis with the keypad widget in User Control tab, like the following image:
 
 ![keypad_link.png](/images/keypad_usercontrol.png)
 
